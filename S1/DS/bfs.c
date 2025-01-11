@@ -24,7 +24,7 @@ int main()
     }
     else
     {
-        printf("DFS visisted order\n");
+        printf("BFS visisted order\n");
         bfs(start);
     }
     return 0;
