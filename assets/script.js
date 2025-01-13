@@ -29,7 +29,11 @@ function openModal(content) {
   let labContent = '';
   if (content === 'Python Lab Content') {
     labContent = `
+<<<<<<< HEAD
           <h3>PYTHON PROGRAMMING LAB</h3>
+=======
+          <h3>Python PROGRAMMING LAB</h3>
+>>>>>>> main
           <h4>Lab Cycle</h4>
           <ul>
               <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/01_area_perimeter_circle.py">Area and Perimeter of a Circle</a></li>
@@ -70,6 +74,7 @@ function openModal(content) {
           <h3>ADVANCED DATA STRUCTURE LAB</h3>
           <h4>Lab Cycle</h4>
           <ul>
+<<<<<<< HEAD
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/DS/array.c">Array</a></li>
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/DS/stack.c">Stack</a></li>
             <li><a href="https://github.com/cetmca266/MCA-Laboratory/blob/main/S1/DS/queue.c">Queue</a></li>
@@ -88,6 +93,26 @@ function openModal(content) {
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/DS/topological.c">Topological Sorting</a></li>
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/DS/dfs.c">DFS</a></li>
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/DS/bfs.c">BFS</a></li>
+=======
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/array.c">Array</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/stack.c">Stack</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/queue.c">Queue</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/Circular(singly).c">Circular Queue</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/linkedlist.c">Linked List</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/Doubly_Linked_List.c">Doubly Linked List</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/Circular_DLL.c">Circular Linked List</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/Bitstringg.c">Set using Bit String</a></li>
+          </ul>
+          <h4>Lab Cycle 2</h4>
+          <ul>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/BST.c">Binary Search Tree</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/prims.c">Prim's Algorithm</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/kruskals.c">Kruskal's Algorithm</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/djikstra.c">Dijkstra's Algorithm</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/topological_sort.c">Topological Sorting</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/dfs.c">DFS</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/blob/main/S1/DS/bfs.c">BFS</a></li>
+>>>>>>> main
         </ul>
         `;
   }
@@ -104,11 +129,19 @@ function openModal(content) {
             <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/tree/main/S1/WEB/RegistrationForm">Registration Form</a></li>
             <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/tree/main/S1/WEB/factorial.php">Factorial</a></li>
             <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/tree/main/S1/WEB/signup">Login Form</a></li>
+<<<<<<< HEAD
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/WEB/javascriptfns.html">JavaScript Functions</a></li>
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/tree/main/S1/WEB/bgcolorchange">JavaScript: Change Background Color</a></li>
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/WEB/formvalidation.html">Form Validation</a></li>
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/WEB/changeimage_hover.html.html">JavaScript: Change Image on Hover</a></li>
             <li><a href="https://github.com/cetmca26/MCA-Laboratory/tree/main/S1/WEB/Sample%20Qns/marks">Student Registration</a></li>
+=======
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/tree/main/S1/WEB/JavaScriptFunctions">JavaScript Functions</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/tree/main/S1/WEB/ChangeBackgroundColor">JavaScript: Change Background Color</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/tree/main/S1/WEB/FormValidation">Form Validation</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/tree/main/S1/WEB/ChangeImageOnHover">JavaScript: Change Image on Hover</a></li>
+            <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/tree/main/S1/WEB/StudentRegistration">Student Registration</a></li>
+>>>>>>> main
             </ul>
 
           `;
