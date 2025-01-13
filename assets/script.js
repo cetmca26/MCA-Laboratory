@@ -8,7 +8,7 @@ fetch("https://api.github.com/repos/CET-MCA-26/MCA-Laboratory/contributors")
       if (contributor.login === "jefintp") {
         return;
       }
-      
+
       const contributorDiv = document.createElement("div");
       contributorDiv.className = "contributor";
       contributorDiv.innerHTML = `
@@ -32,36 +32,36 @@ function openModal(content) {
           <h3>PYTHON PROGRAMMING LAB</h3>
           <h4>Lab Cycle</h4>
           <ul>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/01_area_perimeter_circle.py">Area and Perimeter of a Circle</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/02_swap2num.py">Swap 2 Numbers</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/03_Lof3.py">Largest of 3 numbers</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/04_ArithematicOps.py">Arithmetic Operations</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/05_firstn.py">First n Multiples</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/06_sumofeven.py">Sum of first 100 even numbers</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/07_factorial.py">Factorial</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/08_numofd.py">Number of digits</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/09_Leap.py">Leap year check</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/10_Rootsofquad.py">Roots of a quadratic equation</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/11_Stringechange.py">Exchange first and last characters in a string</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/12.list.py">Display first and last colours from a list</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/13.singlestring.py">Create a single string from two strings, swapping the character at position 1</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/14.dict.py">Sort dictionary (ascending and descending)</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/15.merge.py">Merge two dictionaries</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/16.GCD.py">GCD of 2 numbers</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/17.py">Remove all even numbers from a list</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/18.factorial.py">Factorial using function</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/19.fibinacci.py">Fibonacci series</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/20.charfreq.py">Character frequency in a string</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/21.IngorLy.py">Add 'ing' or 'ly' to a string</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/22.numbpyramid.py">Construct the pattern using nested loops</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/23.graphics.py">Graphics (Packages)</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/24.bank.py">Bank account (Constructor and Methods)</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/25.time.py">Time (Private attributes, Overloading)</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/26.book.py">Publisher, Book, Python (Base class constructor, method overriding)</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/27.oddlines.py">Copy odd lines of one file to another</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/28.readcsv.py">Read each row from a CSV file</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/29.readcols.py">Read specific columns from a CSV file</a></li>
-              <li><a href="https://github.com/CET-MCA-26/MCA-Laboratory/edit/main/S1/PYTHON/30.dicttocsv.py">Write a Python dictionary to a CSV file</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/01_area_perimeter_circle.py">Area and Perimeter of a Circle</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/02_swap2num.py">Swap 2 Numbers</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/03_Lof3.py">Largest of 3 numbers</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/04_ArithematicOps.py">Arithmetic Operations</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/05_firstn.py">First n Multiples</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/06_sumofeven.py">Sum of first 100 even numbers</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/07_factorial.py">Factorial</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/08_numofd.py">Number of digits</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/09_Leap.py">Leap year check</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/10_Rootsofquad.py">Roots of a quadratic equation</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/11_Stringechange.py">Exchange first and last characters in a string</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/12.list.py">Display first and last colours from a list</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/13.singlestring.py">Create a single string from two strings, swapping the character at position 1</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/14.dict.py">Sort dictionary (ascending and descending)</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/15.%20merge.py">Merge two dictionaries</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/16.GCD.py">GCD of 2 numbers</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/17.py">Remove all even numbers from a list</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/18.factorial.py">Factorial using function</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/19.fibinacci.py">Fibonacci series</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/20.charfreq.py">Character frequency in a string</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/21.IngorLy.py">Add 'ing' or 'ly' to a string</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/22.numbpyramid.py">Construct the pattern using nested loops</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/23.graphics.py">Graphics (Packages)</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/24.bank.py">Bank account (Constructor and Methods)</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/25.time.py">Time (Private attributes, Overloading)</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON8.Publisher.py">Publisher, Book, Python (Base class constructor, method overriding)</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/27.oddlines.py">Copy odd lines of one file to another</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/28.readcsv.py">Read each row from a CSV file</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/29.readcols.py">Read specific columns from a CSV file</a></li>
+              <li><a href="https://github.com/cetmca26/MCA-Laboratory/blob/main/S1/PYTHON/30.dicttocsv.py">Write a Python dictionary to a CSV file</a></li>
           </ul>
       `;
   }
