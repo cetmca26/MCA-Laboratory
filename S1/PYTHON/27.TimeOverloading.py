@@ -3,24 +3,39 @@ class Time:
         self.hours=hours
         self.mins=mins
         self.secs=secs
-    
+        
+    def get_time(self):
+        self.hours=int(input("Enter hour :"))
+        self.mins=int(input("Enter minitues :"))
+        self.secs=int(input("Enter seconds :"))
+        
     def __add__(self,time2):
-        secs=(self.secs+time2.secs)%60
-        mins=(self.secs+time2.secs)//60+(self.mins+time2.mins)%60
-        hrs=(self.mins+time2.mins)//60+(self.hours+time2.hours)
-        time3=Time(hrs,mins,secs)
+        hour=self.hours+time2.hours
+        min=self.mins+time2.mins
+        sec=self.secs+time2.secs
+        if(sec>=60):
+            min=min+1
+            sec=sec%60
+        if(min>=60):
+            hour=hour+1
+            min=min%60
+        if(hour>=24):
+            hour=hour%24
+            
+        time3=Time(hour,min,sec)
         return time3
-    def getTime(self):
+    def display(self):
         print(str(self.hours)+":"+str(self.mins)+":"+str(self.secs))
-h1,m1,sec1=map(int, input("Enter the hours,minutes and seconds of time 1:").split())
-h2,m2,sec2=map(int, input("Enter the hours,minutes and seconds of time 2:").split())
 
-t1=Time(h1,m1,sec1)
-t2=Time(h2,m2,sec2)
+t1=Time()
+t2=Time()
+
+t1.get_time()
+t2.get_time()
+
 t3=t1+t2
-t1.getTime()
-t2.getTime()
-t3.getTime()
+
+t3.display()
         
         
         

@@ -1,4 +1,4 @@
-# Web Application Development Tasks
+# Web Programming Lab Questions
 
 ## 1. Create a User Registration Web Page
 - The form should contain scrolling text with white font color and blue background.

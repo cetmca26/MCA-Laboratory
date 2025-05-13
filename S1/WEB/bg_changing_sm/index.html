@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Js-Background Changer</title>
+    </head>
+    <body>
+        <center>
+            <h3>Random Background Changer</h3>
+            <button onclick="changeBg()">Change Background</button>
+        </center>
+        <script>
+            function changeBg(){
+                let color = "";
+                let hex = "0123456789ABCDEF";
+                for(let i=0;i<6;i++){
+                    color += hex[Math.floor(Math.random() * 15)];
+                }
+                console.log(color);
+                document.body.style.backgroundColor = color;
+            }
+        </script>
+    </body>
+</html>

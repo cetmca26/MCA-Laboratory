@@ -1,0 +1,122 @@
+/*************  ✨ Codeium Command 🌟  *************/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam</title>
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-left: 100px;
+        }
+        .question {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #submit{
+            color: white;
+            padding: 8px;
+            margin: 12px;
+            background-color: green;
+        }
+
+        .answers {
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Online Exam</h1>      
+
+    <div class="container"> 
+        <form id="exam">
+            <div class="question">
+                <h5>Q1. What is full form of HTML?</h5>
+                <label><input type="radio" name="op1" value="hyper text marking language"> hyper text marking language</label>
+                <label><input type="radio" name="op1" value="hyper text markup language"> hyper text markup language</label>
+                <label><input type="radio" name="op1" value="hyper text mark language"> hyper text mark language</label>
+                <label><input type="radio" name="op1" value="hyper text marketing language"> hyper text marketing language</label>
+            </div>
+            <div class="question">
+                <h5>Q2. What is full form of CSS?</h5>
+                <label><input type="radio" name="op2" value="cascading styling source"> cascading styling source</label>
+                <label><input type="radio" name="op2" value="cascade style sheet"> cascade style sheet</label>
+                <label><input type="radio" name="op2" value="cascading style sheet"> cascading style sheet</label>
+                <label><input type="radio" name="op2" value="casting style source"> casting style source</label>
+            </div>
+            <div class="question">
+                <h5>Q3. What is full form of PHP?</h5>
+                <label><input type="radio" name="op3" value="pwoli programming php"> pwoli programming php</label>
+                <label><input type="radio" name="op3" value="programming hyper php"> programming hyper php</label>
+                <label><input type="radio" name="op3" value="hypertext preprocessor"> hypertext preprocessor</label>
+                <label><input type="radio" name="op3" value="python hyping php"> python hyping php</label>
+            </div>
+            <div class="question">
+                <h5>Q4. Javascript included in _______ tag</h5>
+                <label><input type="radio" name="op4" value="js"> js</label>
+                <label><input type="radio" name="op4" value="script"> script</label>
+                <label><input type="radio" name="op4" value="Javascript"> Javascript</label>
+                <label><input type="radio" name="op4" value="source"> source</label>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+            <button type="button" id="submit" onclick="answers()">Submit</button>
+        </form>
+    </div>
+
+    <div class="answers" id="answers">
+        <table border="1">
+            <tr>
+                <th>Question Number</th>
+                <th>Answer Chosen</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td id="ans1"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td id="ans2"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td id="ans3"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td id="ans4"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function answers(event) {
+            // Prevent form submission
+            event.preventDefault();
+            event?.preventDefault();
+            const answer = document.getElementById("answers");
+            answer.style.display = "block"
+            const exam = document.getElementById("exam");
+
+            // Get selected answers
+            const ans1 = exam.querySelector('input[name="op1"]:checked')?.value || "Not Answered";
+            const ans2 = exam.querySelector('input[name="op2"]:checked')?.value || "Not Answered";
+            const ans3 = exam.querySelector('input[name="op3"]:checked')?.value || "Not Answered";
+            const ans4 = exam.querySelector('input[name="op4"]:checked')?.value || "Not Answered";
+
+            // Set answers in the table
+            document.getElementById("ans1").innerHTML = ans1;
+            document.getElementById("ans2").innerHTML = ans2;
+            document.getElementById("ans3").innerHTML = ans3;
+            document.getElementById("ans4").innerHTML = ans4;
+        }
+
+        document.getElementById("submit").addEventListener("click", answers);
+    </script>
+</body>
+</html>
+
+/******  059ec95f-143f-4839-8a4b-acd36894d94f  *******/
